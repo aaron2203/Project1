@@ -91,7 +91,8 @@ footer{
     height:40%;
     background-image: url(image.webp);
     background-size:cover;
-    background-position:0 15%;
+    background-position:0 75%;
+    padding: 0 0 50% 0;
 }
 
 .elem:hover{

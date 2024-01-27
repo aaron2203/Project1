@@ -137,9 +137,9 @@ nav span:hover{
     }
     #center h1{
         font-family: 'Gilroy-Light';
-        font-size: 8vw;
+        font-size: 8.5vw;
         font-weight:bold;
-        line-height:8vw;
+        line-height:10vw;
         text-align:inherit;
     }
     #center-left{
@@ -150,11 +150,12 @@ nav span:hover{
         justify-content: space-between;
     }
     #center-left p{
-        font-size: 2.7vw;
+        font-size: 3vw;
         font-family: 'Gilroy-Medium';
         font-weight:700;
+        margin: 3vh 0;
         color: rgb(106, 102, 98);
-        line-height: 3.2vw;
+        line-height: 4.2vw;
     }
     #center-right{
         width:100%;
@@ -172,13 +173,13 @@ nav span:hover{
     }
     .elem a{
         color:black;
-        font-size:medium;
+        font-size:17px;
         text-decoration: none;
     }
     footer{
-        height:35%;
+        height:37%;
         width: 100%;
-        background-repeat: no-repeat;
+        margin-top: 1px;
         background-image: url(image.webp);
         background-size:cover;
     }

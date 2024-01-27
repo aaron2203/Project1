@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(Font/Gilroy-SemiBold.ttf);
+    /* Add more formats if needed (e.g., woff2, ttf) */
+}
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(Font/Gilroy-Medium.ttf);
+    /* Add more formats if needed (e.g., woff2, ttf) */
+}
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url(Font/Gilroy-Light.ttf);
+    /* Add more formats if needed (e.g., woff2, ttf) */
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+     
+}
+nav{
+    height:80px;
+    display: grid;
+    grid-template-columns: 5% 5% 5% 5%;
+    justify-content: end;
+    align-items: center;
+}
+nav h4{
+    font-size: 20px;
+}
+nav span{
+    background-color: black;
+    align-self: center;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+#center{
+    padding: 40px 80px 50px 80px;
+}
+#center h1{
+    font-family: 'Gilroy-Medium';
+    font-size: 80px;
+    font-weight:500;
+    line-height:80px;
+}
+#center-left{
+    height:200px;
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-left p{
+    font-size: 17px;
+    font-family: 'Gilroy-Medium';
+    font-weight:700;
+    color: rgb(106, 102, 98);
+    line-height: 27px;
+    letter-spacing: 0.25px;
+}
+#center-right{
+    width:22%;
+    margin-top: 20px;
+}
+.elem{
+    padding: 20px 0;
+    border-top: 2px solid rgb(106, 102, 98);
+    display: flex;
+    justify-content: space-between;
+}
+.elem span{
+    font-size: 20px;
+    opacity: 0;
+}
+.elem a{
+    color:black;
+    text-decoration: none;
+}
+footer{
+    height:40%;
+    background-image: url(image.jpg);
+    background-size:cover;
+    background-position:0 15%;
+}
+
+.elem:hover{
+    background-color: rgb(235, 239, 239);
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+.elem:hover span{
+    opacity: 1;
+}
+nav h4:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+nav span:hover{
+    color:black;
+    background-color:white ;
+}

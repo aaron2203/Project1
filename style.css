@@ -30,13 +30,13 @@ main{
 }
 nav{
     height:80px;
-    display: grid;
-    grid-template-columns: 5% 5% 5% 5%;
-    justify-content: end;
+    display: flex;
+    justify-content:flex-end;
     align-items: center;
 }
 nav h4{
     font-size: 20px;
+    margin-right: 2vw;
 }
 nav span{
     background-color: black;
@@ -46,28 +46,28 @@ nav span{
     border-radius: 50%;
 }
 #center{
-    padding: 40px 80px 50px 80px;
+    padding: 10vw 9vw 10vw 9vw;
+    
 }
 #center h1{
     font-family: 'Gilroy-Medium';
-    font-size: 80px;
+    font-size: 7vw;
     font-weight:500;
-    line-height:80px;
+    line-height:8vw;
 }
 #center-left{
-    height:200px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 7vh;
     display: flex;
     justify-content: space-between;
 }
 #center-left p{
-    font-size: 17px;
+    font-size: 1.7vw;
     font-family: 'Gilroy-Medium';
     font-weight:700;
     color: rgb(106, 102, 98);
-    line-height: 27px;
-    letter-spacing: 0.25px;
+    line-height: 2.4vw;
+    letter-spacing:0.02vw;
 }
 #center-right{
     width:22%;
@@ -110,4 +110,76 @@ nav h4:hover{
 nav span:hover{
     color:black;
     background-color:white ;
+}
+@media (max-width:600px) {
+    nav{
+        height:60px;
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        margin: 0 4.5vw;
+    }
+    nav h4{
+        font-size: 15px;
+        font-weight: bold;
+        margin-right: 2vw;
+    }
+    nav span{
+        background-color: black;
+        align-self: center;
+        color: white;
+        margin-left: 10px;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    #center{
+        padding: 4.5vw 8vw 7.5vw 8vw;
+    }
+    #center h1{
+        font-family: 'Gilroy-Light';
+        font-size: 8vw;
+        font-weight:bold;
+        line-height:8vw;
+        text-align:inherit;
+    }
+    #center-left{
+        width: 100%;
+        display: flex;
+        margin-top: 19px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #center-left p{
+        font-size: 2.7vw;
+        font-family: 'Gilroy-Medium';
+        font-weight:700;
+        color: rgb(106, 102, 98);
+        line-height: 3.2vw;
+    }
+    #center-right{
+        width:100%;
+        margin:20px 0px;
+    }
+    .elem{
+        padding: 20px 0;
+        border-top: 1px solid rgb(106, 102, 98);
+        display: flex;
+        justify-content: space-between;
+    }
+    .elem span{
+        font-size: 15px;
+        opacity: 1;
+    }
+    .elem a{
+        color:black;
+        font-size:medium;
+        text-decoration: none;
+    }
+    footer{
+        height:35%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-image: url(image.webp);
+        background-size:cover;
+    }
 }

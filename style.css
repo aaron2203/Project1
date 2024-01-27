@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Gilroy';
-    src: url(Font/Gilroy-SemiBold.ttf);
+    src: url(Gilroy-SemiBold.woff2);
     /* Add more formats if needed (e.g., woff2, ttf) */
 }
 @font-face {
     font-family: 'Gilroy-Medium';
-    src: url(Font/Gilroy-Medium.ttf);
+    src: url(Gilroy-Medium.woff2);
     /* Add more formats if needed (e.g., woff2, ttf) */
 }
 @font-face {
     font-family: 'Gilroy-Light';
-    src: url(Font/Gilroy-Light.ttf);
+    src: url(Gilroy-Light.woff2);
     /* Add more formats if needed (e.g., woff2, ttf) */
 }
 *{
@@ -89,7 +89,7 @@ nav span{
 }
 footer{
     height:40%;
-    background-image: url(image.jpg);
+    background-image: url(image.webp);
     background-size:cover;
     background-position:0 15%;
 }
